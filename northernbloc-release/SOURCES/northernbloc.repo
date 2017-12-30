@@ -1,0 +1,14 @@
+[northernbloc]
+name=Locally Maintained RPM Packages - $basearch
+baseurl=http://rpm.northernbloc.org/centos/$releasever/$basearch
+enabled=1
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-NORTHERNBLOC
+
+[northernbloc-source]
+name=Locally Maintained RPM Packages - Sources
+baseurl=http://rpm.northernbloc.org/centos/$releasever/SRPMS
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-NORTHERNBLOC
+
